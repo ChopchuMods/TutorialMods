@@ -9,6 +9,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import pl.kotlewski.tutorialmod.TutorialMod;
+import pl.kotlewski.tutorialmod.block.ModBlocks;
 
 public class ModItemsGroups {
 
@@ -22,6 +23,7 @@ public class ModItemsGroups {
                 .entries((displayContext, entries) -> {
                     entries.add(ModItems.RUBY);
                     entries.add(ModItems.RAW_RUBY);
+                    entries.add(ModBlocks.RUBY_BLOCK);
                 }).build()
     );
 
