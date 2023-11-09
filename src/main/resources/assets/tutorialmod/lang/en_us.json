@@ -4,5 +4,7 @@
 
   "block.tutorialmod.ruby_block": "Block of Ruby",
 
+  "block.tutorialmod.raw_ruby_block": "Raw Ruby Block",
+
   "itemgroup.ruby": "Ruby Tab"
 }
